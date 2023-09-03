@@ -1,0 +1,2422 @@
+[
+  {
+    "stock_item": [
+      {
+        "id": "cf00c319-e680-45a5-8d27-af71508a1fcf",
+        "name": "Product A",
+        "description": "High-quality product",
+        "initial_quantity": 27585,
+        "created_at": "2023-09-02T03:13:24.254Z",
+        "updated_at": "2023-09-02T22:16:33.498Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3d74fe5-595a-4db9-a96b-7afa965cf7b9",
+        "name": "Product B",
+        "description": "Innovative solution",
+        "initial_quantity": 88291,
+        "created_at": "2023-09-02T05:51:16.509Z",
+        "updated_at": "2023-09-02T08:46:54.406Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c8ea5f8-2c34-48a0-91ce-a6059d806ad3",
+        "name": "Product C",
+        "description": "Versatile item",
+        "initial_quantity": 12466,
+        "created_at": "2023-09-02T05:09:51.430Z",
+        "updated_at": "2023-09-02T06:14:29.345Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7b1ae707-1b80-43e5-9c18-1b3001fc3726",
+        "name": "Product D",
+        "description": "Premium merchandise",
+        "initial_quantity": 6635,
+        "created_at": "2023-09-02T23:43:45.902Z",
+        "updated_at": "2023-09-02T11:49:58.035Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1c504ff4-310d-4c92-b37e-b02d6c600920",
+        "name": "Product E",
+        "description": "Cutting-edge technology",
+        "initial_quantity": 64123,
+        "created_at": "2023-09-02T05:03:46.373Z",
+        "updated_at": "2023-09-02T09:34:08.216Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "365660db-e19a-4e4f-a4c6-708a4037c449",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-02T14:25:46.962Z",
+        "updated_at": "2023-09-02T17:46:11.614Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97adf5d9-0f43-41a5-a5c0-c38d1470f41a",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-03T01:47:03.846Z",
+        "updated_at": "2023-09-02T04:07:33.593Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04d7bf3c-255b-45e3-bd99-70a60421171e",
+        "order_number": "SO-003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T11:17:47.086Z",
+        "updated_at": "2023-09-02T10:52:13.813Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96eee87e-349a-4b69-8301-f6d302bb81dd",
+        "order_number": "SO-004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T13:38:45.213Z",
+        "updated_at": "2023-09-02T06:12:06.285Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d25415d-5457-4674-a965-d937aefebf62",
+        "order_number": "SO-005",
+        "customer_name": "David Wilson",
+        "created_at": "2023-09-02T19:28:16.435Z",
+        "updated_at": "2023-09-02T21:23:16.722Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "1147ce42-07aa-47a1-bd40-4f0219a0924c",
+        "order_number": "PO-001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T16:55:57.810Z",
+        "updated_at": "2023-09-02T13:22:22.527Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "587b69a1-44a8-4c9a-9cd7-e91d28a16e9e",
+        "order_number": "PO-002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T22:00:08.286Z",
+        "updated_at": "2023-09-02T08:48:27.017Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf4e20f8-cbef-4afe-a3db-0ff22337163e",
+        "order_number": "PO-003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T08:01:50.001Z",
+        "updated_at": "2023-09-02T06:17:56.089Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e58a119-b82e-4dac-a522-c4ba6520e1f7",
+        "order_number": "PO-004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T18:04:53.907Z",
+        "updated_at": "2023-09-02T12:53:30.352Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e134c1bb-c1d6-4dc9-bda7-bc0ecc39a0db",
+        "order_number": "PO-005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T15:27:56.487Z",
+        "updated_at": "2023-09-02T13:30:21.370Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "56ee2c28-f7ec-4834-ac8c-e798e1354934",
+        "quantity": 67450,
+        "last_updated": "2023-09-02T04:01:31.678Z",
+        "created_at": "2023-09-02T02:14:56.146Z",
+        "updated_at": "2023-09-02T08:25:52.009Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "1c504ff4-310d-4c92-b37e-b02d6c600920",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d1c266c-b2bb-4484-899d-fb304de9a26a",
+        "quantity": 93414,
+        "last_updated": "2023-09-02T12:19:35.264Z",
+        "created_at": "2023-09-02T19:28:05.005Z",
+        "updated_at": "2023-09-02T14:33:17.241Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "2c8ea5f8-2c34-48a0-91ce-a6059d806ad3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1bf0932-13e3-405a-97a2-5f59c78d640d",
+        "quantity": 88842,
+        "last_updated": "2023-09-02T11:15:17.962Z",
+        "created_at": "2023-09-02T14:43:11.197Z",
+        "updated_at": "2023-09-02T23:02:52.154Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "2c8ea5f8-2c34-48a0-91ce-a6059d806ad3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5a7830c-7af8-4a28-89ac-a31203ea6365",
+        "quantity": 24043,
+        "last_updated": "2023-09-02T09:44:15.648Z",
+        "created_at": "2023-09-02T07:24:01.354Z",
+        "updated_at": "2023-09-02T08:38:23.804Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "1c504ff4-310d-4c92-b37e-b02d6c600920",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "653f96bf-3c75-4770-9823-d3ae18164729",
+        "quantity": 94799,
+        "last_updated": "2023-09-02T16:03:28.465Z",
+        "created_at": "2023-09-02T05:23:43.175Z",
+        "updated_at": "2023-09-02T17:30:54.028Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "7b1ae707-1b80-43e5-9c18-1b3001fc3726",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5c3c90b9-bbba-473d-9aaa-089e78d5ec38",
+        "email": "Katrina78@gmail.com",
+        "firstName": "Nella",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65700649",
+        "tenantId": null
+      },
+      {
+        "reference": "b871b130-ea9f-4fec-a5cf-11603350a692",
+        "email": "Rosamond.Leffler98@hotmail.com",
+        "firstName": "Gaetano",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/482.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46db22ad-4026-4d72-9683-102a1a037e04",
+        "email": "Manuel.Hane25@hotmail.com",
+        "firstName": "Vince",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/741.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7ddb21c-9233-4423-91fb-8e4743c7d67f",
+        "email": "Rodger_Purdy66@hotmail.com",
+        "firstName": "Mercedes",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36601123",
+        "tenantId": null
+      },
+      {
+        "reference": "2459c704-7ce7-442d-8325-f7b2ab8efe24",
+        "email": "Roxanne3@yahoo.com",
+        "firstName": "Prince",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "f20726d1-668b-4bfb-94f0-f46f2af72100",
+        "name": "Product A",
+        "description": "A high-quality product",
+        "initial_quantity": 78851,
+        "created_at": "2023-09-02T13:51:47.973Z",
+        "updated_at": "2023-09-02T05:11:36.670Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "709da46f-b667-408c-90f5-b1b4f2d6e059",
+        "name": "Product B",
+        "description": "An innovative solution",
+        "initial_quantity": 6657,
+        "created_at": "2023-09-03T02:03:52.148Z",
+        "updated_at": "2023-09-02T04:04:33.509Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61cf1591-82a6-421a-b00c-58277b940c58",
+        "name": "Product C",
+        "description": "A versatile item",
+        "initial_quantity": 74843,
+        "created_at": "2023-09-02T11:02:07.560Z",
+        "updated_at": "2023-09-02T03:26:25.705Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e45b156-8329-44d5-90f5-b5b2b7703840",
+        "name": "Product D",
+        "description": "A durable component",
+        "initial_quantity": 80335,
+        "created_at": "2023-09-02T12:20:42.067Z",
+        "updated_at": "2023-09-02T02:16:07.853Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ccce496-ffeb-49d5-ac3c-1cad1e68a05e",
+        "name": "Product E",
+        "description": "A reliable accessory",
+        "initial_quantity": 37277,
+        "created_at": "2023-09-02T13:23:40.109Z",
+        "updated_at": "2023-09-02T11:56:56.752Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "3ba2eb7d-3e6e-4751-872e-93979076ca8b",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-03T01:36:59.030Z",
+        "updated_at": "2023-09-02T17:00:37.217Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bf03ace-2c0a-489e-af57-748be9c7851a",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T08:49:17.278Z",
+        "updated_at": "2023-09-02T06:07:36.075Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9efa6ec-b649-40d5-96e5-5de8603468db",
+        "order_number": "SO-003",
+        "customer_name": "Mike Johnson",
+        "created_at": "2023-09-02T15:59:17.127Z",
+        "updated_at": "2023-09-03T01:47:10.369Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72c1df7e-c58a-4323-ba38-7a484b8b515f",
+        "order_number": "SO-004",
+        "customer_name": "Emily Brown",
+        "created_at": "2023-09-02T13:51:19.502Z",
+        "updated_at": "2023-09-02T03:28:56.021Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bb820c7-f5cc-4947-abe6-f22234e3fc4c",
+        "order_number": "SO-005",
+        "customer_name": "David Lee",
+        "created_at": "2023-09-02T22:16:45.388Z",
+        "updated_at": "2023-09-02T05:48:53.783Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "d8164762-bbbe-4686-95fa-124b11f98916",
+        "order_number": "PO-001",
+        "supplier_name": "ABC Supplier",
+        "created_at": "2023-09-02T14:25:52.047Z",
+        "updated_at": "2023-09-02T03:23:50.842Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b430c8f3-58a9-4cf5-9ee2-870667d7ed06",
+        "order_number": "PO-002",
+        "supplier_name": "XYZ Supplier",
+        "created_at": "2023-09-02T13:29:26.736Z",
+        "updated_at": "2023-09-02T12:33:11.882Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d63d5ee-6c39-4e77-9e89-343efaa41325",
+        "order_number": "PO-003",
+        "supplier_name": "123 Supplier",
+        "created_at": "2023-09-02T06:39:53.662Z",
+        "updated_at": "2023-09-02T06:12:43.879Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29ec6597-0d91-44e4-9dd9-fa619a4f08d1",
+        "order_number": "PO-004",
+        "supplier_name": "Acme Supplier",
+        "created_at": "2023-09-02T03:32:02.575Z",
+        "updated_at": "2023-09-02T10:20:58.646Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67be1053-4b7e-4710-83d1-eb87043ab9f8",
+        "order_number": "PO-005",
+        "supplier_name": "Global Supplier",
+        "created_at": "2023-09-02T04:43:10.478Z",
+        "updated_at": "2023-09-02T08:38:46.625Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "e2c6eaf3-15d6-4885-85a1-02b0289028d2",
+        "quantity": 49095,
+        "last_updated": "2023-09-02T18:28:26.499Z",
+        "created_at": "2023-09-02T05:25:16.734Z",
+        "updated_at": "2023-09-02T18:47:24.837Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "f20726d1-668b-4bfb-94f0-f46f2af72100",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e2f8e0b-94fc-48c8-934e-b61cdc24af6a",
+        "quantity": 44854,
+        "last_updated": "2023-09-02T18:05:29.730Z",
+        "created_at": "2023-09-02T09:09:16.814Z",
+        "updated_at": "2023-09-03T02:11:03.356Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "709da46f-b667-408c-90f5-b1b4f2d6e059",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c84f6003-26da-46b9-8275-9b9070d1f698",
+        "quantity": 80608,
+        "last_updated": "2023-09-02T07:19:28.757Z",
+        "created_at": "2023-09-02T11:04:47.278Z",
+        "updated_at": "2023-09-03T02:05:43.726Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "5ccce496-ffeb-49d5-ac3c-1cad1e68a05e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30d13b1d-f6ab-449f-a3fb-5f0c8f603f11",
+        "quantity": 20725,
+        "last_updated": "2023-09-02T15:39:03.298Z",
+        "created_at": "2023-09-02T22:33:58.050Z",
+        "updated_at": "2023-09-02T22:15:41.240Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "61cf1591-82a6-421a-b00c-58277b940c58",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "037a26a1-fe0a-493d-8b44-20f9ddc97c53",
+        "quantity": 83966,
+        "last_updated": "2023-09-02T18:04:37.237Z",
+        "created_at": "2023-09-02T13:38:38.036Z",
+        "updated_at": "2023-09-02T13:08:21.483Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "f20726d1-668b-4bfb-94f0-f46f2af72100",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5d5198b-74e7-4032-8406-394b7aa60889",
+        "email": "Amely.Herman64@yahoo.com",
+        "firstName": "Amelia",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27288908",
+        "tenantId": null
+      },
+      {
+        "reference": "bc5cbf65-7006-43de-b541-26918bf0fcaa",
+        "email": "Clemmie_MacGyver18@yahoo.com",
+        "firstName": "Theodora",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c69eb986-4fee-45a6-9734-88428ea5bffc",
+        "email": "Ambrose_Hettinger59@gmail.com",
+        "firstName": "Audie",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40052504",
+        "tenantId": null
+      },
+      {
+        "reference": "6968b8f6-85a3-4b67-bd1b-f730894d6904",
+        "email": "Dakota90@gmail.com",
+        "firstName": "Cade",
+        "lastName": "Murazik-Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1025.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e984406-951f-4797-8e0f-8808981b207f",
+        "email": "Adriana_Cole87@yahoo.com",
+        "firstName": "Stuart",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/869.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "e63c248a-38f0-4332-bb30-1b3993b8ea49",
+        "name": "Widget A",
+        "description": "High-quality and durable",
+        "initial_quantity": 79276,
+        "created_at": "2023-09-02T11:39:10.552Z",
+        "updated_at": "2023-09-02T05:29:15.946Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "716ba984-d6dc-409b-af05-386950a914dc",
+        "name": "Gadget B",
+        "description": "Innovative and versatile",
+        "initial_quantity": 25190,
+        "created_at": "2023-09-02T20:39:50.371Z",
+        "updated_at": "2023-09-02T04:16:07.137Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a44bb77a-2f92-46ff-ae61-cb6aab283cc3",
+        "name": "Tool C",
+        "description": "Essential for everyday use",
+        "initial_quantity": 53605,
+        "created_at": "2023-09-03T00:24:55.179Z",
+        "updated_at": "2023-09-02T11:05:29.431Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ab621554-1995-4eee-a949-9a7a05ed853a",
+        "name": "Accessory D",
+        "description": "Enhances productivity",
+        "initial_quantity": 18338,
+        "created_at": "2023-09-02T10:28:40.549Z",
+        "updated_at": "2023-09-02T06:51:54.477Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17e21b85-c5b1-48d2-81fc-8933a7c13d11",
+        "name": "Component E",
+        "description": "Meets industry standards",
+        "initial_quantity": 55511,
+        "created_at": "2023-09-02T07:18:33.764Z",
+        "updated_at": "2023-09-02T18:32:26.881Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "ffe5995c-a41c-4351-ba82-c749f193117d",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-02T04:37:22.988Z",
+        "updated_at": "2023-09-02T19:44:41.097Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75d0364f-eb33-4856-b578-3e8d933e3a57",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T05:16:49.666Z",
+        "updated_at": "2023-09-02T05:22:12.598Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4cdffcd-b774-4fa6-a777-01676d2e2d47",
+        "order_number": "SO-003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T05:22:50.332Z",
+        "updated_at": "2023-09-02T19:55:44.786Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62059698-c809-433f-87c3-47302c0a1325",
+        "order_number": "SO-004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-03T00:58:59.154Z",
+        "updated_at": "2023-09-02T03:59:01.712Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa9e5002-d8a3-4d2e-8a9f-9847d29be7f8",
+        "order_number": "SO-005",
+        "customer_name": "David Wilson",
+        "created_at": "2023-09-02T12:45:24.435Z",
+        "updated_at": "2023-09-02T07:57:47.182Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "0c325494-76a8-421d-aef1-692dce70f657",
+        "order_number": "PO-001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T12:57:56.555Z",
+        "updated_at": "2023-09-02T19:45:13.841Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c04fda09-54af-4964-a6c9-d2f129db608e",
+        "order_number": "PO-002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T05:06:15.422Z",
+        "updated_at": "2023-09-02T22:05:07.768Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd15c363-da75-4a42-af4b-b46b677882dd",
+        "order_number": "PO-003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T13:20:52.197Z",
+        "updated_at": "2023-09-02T03:49:53.930Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4213d404-96fa-4eaf-a9cd-be4ce1c9ddec",
+        "order_number": "PO-004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-03T00:59:27.415Z",
+        "updated_at": "2023-09-03T02:01:14.576Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ad2fe11-cd8d-4699-b0bb-6f2261480fd8",
+        "order_number": "PO-005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T11:28:07.125Z",
+        "updated_at": "2023-09-02T23:22:48.354Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "8438defe-40f0-4892-8538-c805eaf4e4d3",
+        "quantity": 83321,
+        "last_updated": "2023-09-02T09:36:26.868Z",
+        "created_at": "2023-09-02T08:12:25.507Z",
+        "updated_at": "2023-09-02T03:41:44.014Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "716ba984-d6dc-409b-af05-386950a914dc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25b5378d-29a0-4ee1-9766-8599ec848d9e",
+        "quantity": 57066,
+        "last_updated": "2023-09-02T11:23:30.343Z",
+        "created_at": "2023-09-02T02:45:56.981Z",
+        "updated_at": "2023-09-02T06:58:26.174Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "716ba984-d6dc-409b-af05-386950a914dc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f70d1ca-1e2f-493c-8376-fb7c98276d22",
+        "quantity": 84688,
+        "last_updated": "2023-09-02T18:37:55.536Z",
+        "created_at": "2023-09-02T03:58:30.464Z",
+        "updated_at": "2023-09-02T23:25:04.979Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "e63c248a-38f0-4332-bb30-1b3993b8ea49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbc5c280-26ec-4ebb-8dce-5847304169ca",
+        "quantity": 38585,
+        "last_updated": "2023-09-02T22:25:18.725Z",
+        "created_at": "2023-09-02T14:33:25.206Z",
+        "updated_at": "2023-09-02T09:10:00.988Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "a44bb77a-2f92-46ff-ae61-cb6aab283cc3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9e3fc65-52ba-4032-a481-b240f6cfb36d",
+        "quantity": 32637,
+        "last_updated": "2023-09-02T19:06:26.539Z",
+        "created_at": "2023-09-02T03:20:03.056Z",
+        "updated_at": "2023-09-02T09:32:09.996Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "ab621554-1995-4eee-a949-9a7a05ed853a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "adf81549-89be-4347-9d2b-68da23b56839",
+        "email": "Bert_Ferry@hotmail.com",
+        "firstName": "Eula",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7ded542-e299-42a2-8ec6-93aaca97a05e",
+        "email": "Frederick.Schneider83@hotmail.com",
+        "firstName": "Audra",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/345.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "beac700e-9ed4-4dce-acd7-d9614a34bca6",
+        "email": "Cassandra.Spencer21@yahoo.com",
+        "firstName": "Dakota",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/444.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da24cb8d-62c4-4650-8204-8af755f7ae18",
+        "email": "Annabelle90@hotmail.com",
+        "firstName": "Rosetta",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b916e22-9a3c-4fe3-aaab-a346c27d27c8",
+        "email": "Janis51@yahoo.com",
+        "firstName": "Obie",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77264435",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "92eb57ba-2971-42c7-a918-f735a636a8ca",
+        "name": "Widget A",
+        "description": "A versatile and durable product",
+        "initial_quantity": 82148,
+        "created_at": "2023-09-03T01:35:15.950Z",
+        "updated_at": "2023-09-02T19:20:13.704Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1d40f232-b9d9-4771-824b-1698097ff19c",
+        "name": "Gadget B",
+        "description": "Designed for optimal performance",
+        "initial_quantity": 23156,
+        "created_at": "2023-09-02T14:04:54.885Z",
+        "updated_at": "2023-09-03T00:31:28.733Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e8542759-1ed7-4015-80d2-a30e02c57bfb",
+        "name": "Tool C",
+        "description": "Perfect for everyday use",
+        "initial_quantity": 60639,
+        "created_at": "2023-09-02T03:29:45.466Z",
+        "updated_at": "2023-09-03T00:29:26.171Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "28b83e17-48b1-4d05-910a-5615321623f1",
+        "name": "Accessory D",
+        "description": "Enhances productivity",
+        "initial_quantity": 62915,
+        "created_at": "2023-09-02T08:55:22.341Z",
+        "updated_at": "2023-09-02T04:57:42.999Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "84c81118-79e3-46a3-aa04-7aa6890366a1",
+        "name": "Product E",
+        "description": "High-quality and reliable",
+        "initial_quantity": 54543,
+        "created_at": "2023-09-02T20:01:32.191Z",
+        "updated_at": "2023-09-03T00:32:43.965Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "7cae42a8-504e-42f9-956d-f9cc874ea782",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-02T03:54:25.496Z",
+        "updated_at": "2023-09-02T09:58:40.485Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b5e31d8-4c34-438e-b47b-9476f25e65ec",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T06:23:27.075Z",
+        "updated_at": "2023-09-02T15:29:19.207Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bdece96-a722-48ae-b3a7-b22d0ee91b4d",
+        "order_number": "SO-003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T10:08:24.244Z",
+        "updated_at": "2023-09-03T00:42:58.959Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d70d02af-b5dd-453d-896a-af9a7173a0ad",
+        "order_number": "SO-004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T18:12:47.080Z",
+        "updated_at": "2023-09-03T01:00:17.740Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9660380-6c63-4f9b-8535-7e0bffcec57d",
+        "order_number": "SO-005",
+        "customer_name": "David Wilson",
+        "created_at": "2023-09-02T20:43:46.839Z",
+        "updated_at": "2023-09-02T04:57:34.997Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "cb1de0a3-38a5-4bf0-a15e-03c5be6f002d",
+        "order_number": "PO-001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T17:05:50.531Z",
+        "updated_at": "2023-09-02T12:23:54.571Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9b6f1d1-4935-4ac1-8c94-77e9ac947c44",
+        "order_number": "PO-002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T22:59:30.971Z",
+        "updated_at": "2023-09-02T11:49:36.952Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "676d7b3b-fb51-4c2d-be57-98aca2ccba1d",
+        "order_number": "PO-003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T23:35:03.251Z",
+        "updated_at": "2023-09-02T22:32:18.328Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcf4c8c2-ed15-4ad4-9cd3-537bb5861a6d",
+        "order_number": "PO-004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T13:51:57.143Z",
+        "updated_at": "2023-09-02T05:03:47.762Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04c3961c-57ad-44c0-80ee-f88fe1a2e8a0",
+        "order_number": "PO-005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T05:48:47.037Z",
+        "updated_at": "2023-09-02T09:33:18.621Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f3606421-dd56-4cc1-be3b-bc67d3ff6c0d",
+        "quantity": 19873,
+        "last_updated": "2023-09-02T15:40:00.192Z",
+        "created_at": "2023-09-02T09:38:36.690Z",
+        "updated_at": "2023-09-02T15:22:39.267Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "28b83e17-48b1-4d05-910a-5615321623f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2d139f2-bb36-4b49-b3b2-7a077ba3bb30",
+        "quantity": 7290,
+        "last_updated": "2023-09-02T19:14:15.986Z",
+        "created_at": "2023-09-02T16:14:50.824Z",
+        "updated_at": "2023-09-02T06:47:07.775Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "e8542759-1ed7-4015-80d2-a30e02c57bfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "683c62ff-34b0-4f06-b0b7-c824811e25cd",
+        "quantity": 75386,
+        "last_updated": "2023-09-02T13:55:50.119Z",
+        "created_at": "2023-09-02T16:37:18.907Z",
+        "updated_at": "2023-09-02T03:00:44.265Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "84c81118-79e3-46a3-aa04-7aa6890366a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76614077-38f1-4ed7-9f39-5a80aa0de8c6",
+        "quantity": 59989,
+        "last_updated": "2023-09-02T16:31:16.137Z",
+        "created_at": "2023-09-02T16:47:45.940Z",
+        "updated_at": "2023-09-02T16:19:07.599Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "1d40f232-b9d9-4771-824b-1698097ff19c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2f47194-d950-49d2-8ebd-b7bdf923f7d9",
+        "quantity": 80043,
+        "last_updated": "2023-09-02T03:27:51.621Z",
+        "created_at": "2023-09-02T10:23:20.576Z",
+        "updated_at": "2023-09-02T12:08:03.954Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "1d40f232-b9d9-4771-824b-1698097ff19c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "65e70524-d226-4fac-9913-43be5fc2550a",
+        "email": "Wellington.Koch@yahoo.com",
+        "firstName": "Zackary",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a78cbe46-5ba4-4e45-80d2-06131f49a0cc",
+        "email": "Nash49@gmail.com",
+        "firstName": "Ephraim",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9344960",
+        "tenantId": null
+      },
+      {
+        "reference": "443d8f13-3ab9-4084-94ff-c8094e3f9ee1",
+        "email": "Anika_Kiehn@gmail.com",
+        "firstName": "Nicolas",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4834f164-4be1-4c19-950d-139229721232",
+        "email": "Earnestine36@gmail.com",
+        "firstName": "Francesco",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97846792",
+        "tenantId": null
+      },
+      {
+        "reference": "b31b3cac-914b-4353-accd-6f0847596a73",
+        "email": "Dudley.Kemmer66@yahoo.com",
+        "firstName": "Nikko",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92255236",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "4a24c1a8-e313-4345-9110-a4736871341b",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "initial_quantity": 57584,
+        "created_at": "2023-09-02T15:12:16.396Z",
+        "updated_at": "2023-09-02T14:53:20.286Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4173eac0-cc66-4300-b3e6-d6011b83306a",
+        "name": "Product B",
+        "description": "Innovative and user-friendly",
+        "initial_quantity": 41161,
+        "created_at": "2023-09-02T11:11:46.119Z",
+        "updated_at": "2023-09-02T21:05:27.587Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d10a7adf-9def-4f81-994e-2975e3b29e4c",
+        "name": "Product C",
+        "description": "Versatile and efficient",
+        "initial_quantity": 77375,
+        "created_at": "2023-09-02T04:25:50.056Z",
+        "updated_at": "2023-09-02T18:58:25.251Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b6c30944-95ca-4d6b-acc6-db8831e07726",
+        "name": "Product D",
+        "description": "Elegant and stylish",
+        "initial_quantity": 56024,
+        "created_at": "2023-09-02T21:38:18.035Z",
+        "updated_at": "2023-09-02T14:20:20.659Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c6bae4fb-aa4e-4e88-8daf-a7f35c47c3da",
+        "name": "Product E",
+        "description": "Reliable and cost-effective",
+        "initial_quantity": 49491,
+        "created_at": "2023-09-02T09:59:53.452Z",
+        "updated_at": "2023-09-02T10:18:56.782Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "ba0e5b6f-9889-4ef0-9374-092c44b6dc78",
+        "order_number": "SO001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-02T16:51:07.496Z",
+        "updated_at": "2023-09-02T11:00:16.604Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4b4b893-1e01-44ce-baad-8b73f0a528ce",
+        "order_number": "SO002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T15:59:26.429Z",
+        "updated_at": "2023-09-02T22:18:37.657Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60b4dd0e-b7f7-4367-874b-82b23ba7c0e6",
+        "order_number": "SO003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T21:26:14.624Z",
+        "updated_at": "2023-09-02T08:48:42.125Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c6fc5a6-7d6f-40d7-a961-68dd31cb77b5",
+        "order_number": "SO004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T12:35:07.859Z",
+        "updated_at": "2023-09-02T05:49:42.350Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71777621-c9e1-4482-b941-591adee7624d",
+        "order_number": "SO005",
+        "customer_name": "David Wilson",
+        "created_at": "2023-09-02T13:43:29.029Z",
+        "updated_at": "2023-09-02T19:06:30.320Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "e1fd912e-4cea-4b7a-b7fc-7ecf4405ee9a",
+        "order_number": "PO001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T15:22:54.916Z",
+        "updated_at": "2023-09-02T15:27:29.798Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "805d5dc3-d259-4a0c-b0e2-6edd86952143",
+        "order_number": "PO002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T23:14:32.835Z",
+        "updated_at": "2023-09-02T06:56:33.468Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46a336a5-fa5d-4aed-a56f-e801da325d8f",
+        "order_number": "PO003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-03T00:37:05.001Z",
+        "updated_at": "2023-09-02T05:31:50.915Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0760cf0-4078-4ffd-a35b-79e621777810",
+        "order_number": "PO004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T23:20:22.524Z",
+        "updated_at": "2023-09-02T04:11:08.622Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aeb33709-5f31-4ebb-b552-ccc40c58ae43",
+        "order_number": "PO005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T14:56:21.608Z",
+        "updated_at": "2023-09-02T07:51:43.807Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "be7a1a18-4391-46c4-9acc-0e6efc94d902",
+        "quantity": 74080,
+        "last_updated": "2023-09-02T23:34:36.811Z",
+        "created_at": "2023-09-02T07:25:55.465Z",
+        "updated_at": "2023-09-02T22:44:05.070Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "4173eac0-cc66-4300-b3e6-d6011b83306a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eaf7c0d-dca5-4d65-bd9c-322d960703a1",
+        "quantity": 48353,
+        "last_updated": "2023-09-02T17:34:26.444Z",
+        "created_at": "2023-09-02T02:41:39.447Z",
+        "updated_at": "2023-09-02T13:02:36.855Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "b6c30944-95ca-4d6b-acc6-db8831e07726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df425c92-9a7b-499f-922b-3fd757c6a5ae",
+        "quantity": 40219,
+        "last_updated": "2023-09-02T03:39:07.124Z",
+        "created_at": "2023-09-02T10:57:44.592Z",
+        "updated_at": "2023-09-02T21:57:34.227Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "d10a7adf-9def-4f81-994e-2975e3b29e4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccb16eb8-af25-4afa-8257-83b95c176404",
+        "quantity": 40951,
+        "last_updated": "2023-09-02T09:07:18.853Z",
+        "created_at": "2023-09-03T00:24:59.100Z",
+        "updated_at": "2023-09-02T22:47:11.795Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "b6c30944-95ca-4d6b-acc6-db8831e07726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "043cdc14-521e-4182-a3d0-4afc0348737b",
+        "quantity": 75515,
+        "last_updated": "2023-09-02T23:51:25.915Z",
+        "created_at": "2023-09-03T02:01:57.227Z",
+        "updated_at": "2023-09-02T18:18:55.304Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "4a24c1a8-e313-4345-9110-a4736871341b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "04e7f45f-dc17-40be-b152-d55709d97900",
+        "email": "Kendra88@hotmail.com",
+        "firstName": "Cathryn",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/101200",
+        "tenantId": null
+      },
+      {
+        "reference": "e523363b-d23e-4aa3-b5bb-f9561040b7e3",
+        "email": "Kenna_Zieme44@yahoo.com",
+        "firstName": "Jaclyn",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84306398-8a49-476b-830f-84758ce89772",
+        "email": "Macy_Feil47@gmail.com",
+        "firstName": "Price",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/499.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b3df795-2e1f-4e7d-a435-82ea2607bd80",
+        "email": "Antonietta_Huels@hotmail.com",
+        "firstName": "Haven",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43527373",
+        "tenantId": null
+      },
+      {
+        "reference": "5f04e62b-1b62-4ef9-bfdf-3cc13b2fe8e7",
+        "email": "Giles_Beatty69@gmail.com",
+        "firstName": "Hollis",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/20.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "b6fb5a39-bfae-4bc0-803f-7e39fa93e184",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "initial_quantity": 81353,
+        "created_at": "2023-09-02T22:00:08.123Z",
+        "updated_at": "2023-09-02T05:54:19.725Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85ed035f-dcd5-41e8-abee-2fd01112edc6",
+        "name": "Product B",
+        "description": "Innovative and user-friendly",
+        "initial_quantity": 2912,
+        "created_at": "2023-09-02T22:18:28.213Z",
+        "updated_at": "2023-09-02T07:48:56.384Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b41b2252-5fdf-4131-a70e-56a3d719234d",
+        "name": "Product C",
+        "description": "Versatile and customizable",
+        "initial_quantity": 48709,
+        "created_at": "2023-09-02T20:49:16.265Z",
+        "updated_at": "2023-09-02T14:16:14.933Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "181c8e21-5d5c-4934-97c3-4d4034879602",
+        "name": "Product D",
+        "description": "Eco-friendly and sustainable",
+        "initial_quantity": 43880,
+        "created_at": "2023-09-02T08:30:59.062Z",
+        "updated_at": "2023-09-02T13:51:57.692Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "70121469-b512-4c4c-a114-b3430306636f",
+        "name": "Product E",
+        "description": "Premium and luxurious",
+        "initial_quantity": 43905,
+        "created_at": "2023-09-02T21:25:38.016Z",
+        "updated_at": "2023-09-02T18:51:06.775Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "7dc5d311-f857-4efa-ac65-b0b274216f5e",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-02T14:18:14.154Z",
+        "updated_at": "2023-09-02T13:58:48.804Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dc90b35-cc15-4e56-a108-ed8b80928f47",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T16:20:37.197Z",
+        "updated_at": "2023-09-02T19:12:25.178Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2627346-582a-4922-9ae6-70804c97bec3",
+        "order_number": "SO-003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T15:05:15.505Z",
+        "updated_at": "2023-09-03T01:19:42.824Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b8b5723-1ffb-4714-8109-f0253daeab3d",
+        "order_number": "SO-004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T20:36:37.202Z",
+        "updated_at": "2023-09-02T20:32:12.339Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d5f41ac-c021-4cda-bfc3-4d0627fc0b7c",
+        "order_number": "SO-005",
+        "customer_name": "Robert Wilson",
+        "created_at": "2023-09-02T21:29:48.031Z",
+        "updated_at": "2023-09-02T22:30:54.159Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "d3e6c693-a200-409f-90a8-2bb1672906c7",
+        "order_number": "PO-001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T12:31:17.398Z",
+        "updated_at": "2023-09-02T19:32:14.809Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18b204e4-9bab-40bf-a98c-5c713ea839c0",
+        "order_number": "PO-002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T14:10:53.822Z",
+        "updated_at": "2023-09-02T08:17:14.038Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fa186aa-d7a2-4d14-b444-0e459f6941c5",
+        "order_number": "PO-003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T15:01:00.105Z",
+        "updated_at": "2023-09-03T01:02:53.635Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "044e0a7f-debb-47fc-bba2-90e269d56d9b",
+        "order_number": "PO-004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T21:29:17.598Z",
+        "updated_at": "2023-09-02T16:14:42.894Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3318bc8c-56e2-4ebf-a435-3a86f92b9b42",
+        "order_number": "PO-005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T12:28:53.084Z",
+        "updated_at": "2023-09-02T06:53:37.637Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "1a8ec74a-fd94-459d-b90c-d9838e9f55d6",
+        "quantity": 36810,
+        "last_updated": "2023-09-02T10:18:24.881Z",
+        "created_at": "2023-09-02T07:26:35.432Z",
+        "updated_at": "2023-09-02T20:36:25.680Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "85ed035f-dcd5-41e8-abee-2fd01112edc6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d8aef39-ff39-471e-bf4e-e3885cdb4830",
+        "quantity": 23833,
+        "last_updated": "2023-09-02T19:10:08.371Z",
+        "created_at": "2023-09-02T06:27:51.710Z",
+        "updated_at": "2023-09-02T05:18:20.888Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "b41b2252-5fdf-4131-a70e-56a3d719234d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5db3f408-f056-426a-bbd9-e6560cb812cc",
+        "quantity": 10463,
+        "last_updated": "2023-09-02T02:17:59.228Z",
+        "created_at": "2023-09-02T06:22:54.501Z",
+        "updated_at": "2023-09-02T22:06:28.501Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "85ed035f-dcd5-41e8-abee-2fd01112edc6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "717eb386-9542-4cc7-ae8f-08cd8c23bf88",
+        "quantity": 45300,
+        "last_updated": "2023-09-02T12:22:51.368Z",
+        "created_at": "2023-09-02T15:32:30.432Z",
+        "updated_at": "2023-09-02T16:23:47.972Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "b6fb5a39-bfae-4bc0-803f-7e39fa93e184",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64eca86c-3e24-4862-b9ef-1d97fe9f2ea0",
+        "quantity": 15928,
+        "last_updated": "2023-09-02T20:51:39.805Z",
+        "created_at": "2023-09-02T12:18:21.677Z",
+        "updated_at": "2023-09-02T21:01:09.904Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "181c8e21-5d5c-4934-97c3-4d4034879602",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "05c040d7-bba3-4894-ad44-6257caaed459",
+        "email": "Guido.Zboncak21@gmail.com",
+        "firstName": "Raymundo",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1229.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d236400c-e2d2-41e9-a239-2c7a44c0c397",
+        "email": "Dallin76@gmail.com",
+        "firstName": "Chyna",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/56.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70c3e1ae-1fc4-4cce-8ada-f8edd18c735d",
+        "email": "Harvey3@yahoo.com",
+        "firstName": "Josefa",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23268642",
+        "tenantId": null
+      },
+      {
+        "reference": "e1af6af4-d5c7-42a2-9f27-29713587821b",
+        "email": "Loren.Schiller@hotmail.com",
+        "firstName": "Jade",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/705.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48b65757-8542-4bd9-ac92-d3845c46a0de",
+        "email": "Juliet.Prohaska@hotmail.com",
+        "firstName": "Bella",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/531.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "a6e08141-5d54-4e78-9e76-076beb87c25c",
+        "name": "Widget A",
+        "description": "High-quality widget for everyday use",
+        "initial_quantity": 36937,
+        "created_at": "2023-09-02T21:32:46.709Z",
+        "updated_at": "2023-09-02T02:26:11.528Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ec2fe9bf-0465-4b49-91b1-ccf32d0c263e",
+        "name": "Gadget B",
+        "description": "Cutting-edge gadget with advanced features",
+        "initial_quantity": 24015,
+        "created_at": "2023-09-03T01:36:33.385Z",
+        "updated_at": "2023-09-02T23:54:32.858Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ae9f4c7e-4be3-4b49-9618-f626218de1a4",
+        "name": "Tool C",
+        "description": "Versatile tool for various applications",
+        "initial_quantity": 71467,
+        "created_at": "2023-09-02T07:36:52.798Z",
+        "updated_at": "2023-09-02T06:26:21.217Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23aa87a5-efa5-4e2b-b39d-d7ed9ef00928",
+        "name": "Accessory D",
+        "description": "Stylish accessory to enhance your outfit",
+        "initial_quantity": 29041,
+        "created_at": "2023-09-02T13:33:08.234Z",
+        "updated_at": "2023-09-03T02:15:02.609Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d968257b-fd91-42f2-a2bc-12de0d00372a",
+        "name": "Product E",
+        "description": "Premium product designed for excellence",
+        "initial_quantity": 40287,
+        "created_at": "2023-09-02T07:12:14.841Z",
+        "updated_at": "2023-09-02T15:49:49.764Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "1480ec45-dccd-4dd2-8a84-a7a32c5c73d8",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-03T01:30:06.095Z",
+        "updated_at": "2023-09-02T10:33:34.756Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f3356f6-023b-4b3c-a7e9-5921756d2397",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T22:40:40.548Z",
+        "updated_at": "2023-09-02T17:03:10.909Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20cacaf9-5eb2-4da8-af15-4bcc35c5feab",
+        "order_number": "SO-003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T04:51:18.193Z",
+        "updated_at": "2023-09-02T09:13:30.020Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0227fa31-95ef-4fa7-b5d8-eaa563815215",
+        "order_number": "SO-004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T11:15:16.382Z",
+        "updated_at": "2023-09-02T07:37:01.506Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07500c18-d392-43d8-b419-666b30330dd0",
+        "order_number": "SO-005",
+        "customer_name": "Robert Wilson",
+        "created_at": "2023-09-02T02:43:47.262Z",
+        "updated_at": "2023-09-02T19:20:05.229Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "218f6461-10f9-46f7-b126-adf6e349766c",
+        "order_number": "PO-001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T03:44:20.656Z",
+        "updated_at": "2023-09-02T19:02:06.132Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "635ab96a-1df4-4446-b2ef-40081f036034",
+        "order_number": "PO-002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T17:02:49.104Z",
+        "updated_at": "2023-09-02T03:57:52.958Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80ed6c94-2410-46c1-8c9e-5a0866fda4fb",
+        "order_number": "PO-003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T09:44:30.353Z",
+        "updated_at": "2023-09-02T21:18:16.460Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66ab5737-30c6-4fbf-89d1-85590c8afccd",
+        "order_number": "PO-004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T19:19:38.709Z",
+        "updated_at": "2023-09-02T15:57:48.354Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "635dc940-4782-4926-925d-1da3f7b097de",
+        "order_number": "PO-005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T12:10:53.100Z",
+        "updated_at": "2023-09-02T06:57:46.157Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "d236b176-a523-45f9-aa69-8f5823a81e38",
+        "quantity": 95774,
+        "last_updated": "2023-09-03T00:39:40.551Z",
+        "created_at": "2023-09-02T02:22:28.013Z",
+        "updated_at": "2023-09-02T09:35:20.215Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "d968257b-fd91-42f2-a2bc-12de0d00372a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "369eb291-4280-4c59-8957-44db2348c6df",
+        "quantity": 18985,
+        "last_updated": "2023-09-02T06:54:56.550Z",
+        "created_at": "2023-09-02T15:08:26.868Z",
+        "updated_at": "2023-09-03T00:13:10.874Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "ec2fe9bf-0465-4b49-91b1-ccf32d0c263e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9c9d169-5a15-46be-9b4f-ee772d8204bc",
+        "quantity": 4836,
+        "last_updated": "2023-09-02T23:04:56.450Z",
+        "created_at": "2023-09-02T21:38:25.010Z",
+        "updated_at": "2023-09-02T06:17:36.360Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "ae9f4c7e-4be3-4b49-9618-f626218de1a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8ae0ab5-f613-4c55-86ea-0870a8c2bdf3",
+        "quantity": 73535,
+        "last_updated": "2023-09-02T03:08:58.685Z",
+        "created_at": "2023-09-02T06:43:19.433Z",
+        "updated_at": "2023-09-02T03:57:54.888Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "d968257b-fd91-42f2-a2bc-12de0d00372a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca17fc25-0131-44c9-922d-799d88575838",
+        "quantity": 58309,
+        "last_updated": "2023-09-02T08:18:48.385Z",
+        "created_at": "2023-09-02T13:53:56.835Z",
+        "updated_at": "2023-09-02T12:30:04.385Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "d968257b-fd91-42f2-a2bc-12de0d00372a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7259bd0a-ce08-4906-af9f-2b2f126d15b2",
+        "email": "Felicity92@gmail.com",
+        "firstName": "Santiago",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22344202",
+        "tenantId": null
+      },
+      {
+        "reference": "1868a457-e61f-42e8-a249-72a83b0b5da6",
+        "email": "Silas.Bode78@gmail.com",
+        "firstName": "Marlee",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99791185",
+        "tenantId": null
+      },
+      {
+        "reference": "54cf6494-5f79-4dd4-8a13-aae0d1c76e74",
+        "email": "Tyson_Boehm94@yahoo.com",
+        "firstName": "Edwardo",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/339.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9d43bed-a73b-494f-9f93-bf0ee32b9073",
+        "email": "Cody12@hotmail.com",
+        "firstName": "Mabelle",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/455.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cdee0fed-88a4-4f36-af77-42eb9c6ac894",
+        "email": "Daisha65@gmail.com",
+        "firstName": "Kallie",
+        "lastName": "Medhurst-Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13478539",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "0282b9bc-550f-40a5-a00a-3341e8b57fd9",
+        "name": "Widget",
+        "description": "High-quality and durable",
+        "initial_quantity": 82957,
+        "created_at": "2023-09-02T21:35:53.898Z",
+        "updated_at": "2023-09-02T03:01:17.328Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c9799cd-47c2-40e3-8f2b-b02a28b51c44",
+        "name": "Gadget",
+        "description": "Innovative and versatile",
+        "initial_quantity": 63413,
+        "created_at": "2023-09-03T01:41:23.053Z",
+        "updated_at": "2023-09-02T12:10:40.563Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "35118d1f-ba90-4bed-8975-15fcef48e8d2",
+        "name": "Tool",
+        "description": "Essential for everyday use",
+        "initial_quantity": 84969,
+        "created_at": "2023-09-03T02:00:20.667Z",
+        "updated_at": "2023-09-02T12:10:29.831Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31975399-5a52-44dc-9e0c-a2cf8bc6ccc8",
+        "name": "Accessory",
+        "description": "Enhances productivity",
+        "initial_quantity": 68905,
+        "created_at": "2023-09-02T23:28:46.741Z",
+        "updated_at": "2023-09-02T14:42:39.693Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b542d5ac-d7f4-406e-ae41-8907a6c902b2",
+        "name": "Component",
+        "description": "Meets industry standards",
+        "initial_quantity": 15349,
+        "created_at": "2023-09-02T20:14:33.324Z",
+        "updated_at": "2023-09-02T03:47:12.418Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "856c9b73-dbae-4fd0-bd74-52eba30608c6",
+        "order_number": "SO-12345",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-02T11:18:27.679Z",
+        "updated_at": "2023-09-02T12:24:40.585Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75ebd448-946c-47e6-b9ae-fb74ef7f0770",
+        "order_number": "SO-67890",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T05:47:26.291Z",
+        "updated_at": "2023-09-02T10:03:43.192Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50f01c9d-b20c-4292-82be-711a1088d2a6",
+        "order_number": "SO-24680",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-03T01:24:30.519Z",
+        "updated_at": "2023-09-02T03:39:09.500Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c44f5d0c-2422-4aef-90ba-5ae12fbccd26",
+        "order_number": "SO-13579",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T18:27:37.438Z",
+        "updated_at": "2023-09-02T19:00:24.327Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77dbdc6c-4c3d-4573-900d-7fca72b052b7",
+        "order_number": "SO-97531",
+        "customer_name": "David Wilson",
+        "created_at": "2023-09-02T04:14:25.383Z",
+        "updated_at": "2023-09-02T09:00:15.035Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "2e7f7694-6d72-4589-ae6a-5bb65892b845",
+        "order_number": "PO-54321",
+        "supplier_name": "ABC Corporation",
+        "created_at": "2023-09-03T00:22:14.815Z",
+        "updated_at": "2023-09-02T21:38:39.347Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8e71a1a-f039-4f6d-97a0-1a2dbc52b3c0",
+        "order_number": "PO-09876",
+        "supplier_name": "XYZ Solutions",
+        "created_at": "2023-09-02T08:16:41.237Z",
+        "updated_at": "2023-09-02T05:13:27.465Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "747a251f-04d9-437d-89f5-2644916160da",
+        "order_number": "PO-08642",
+        "supplier_name": "123 Enterprises",
+        "created_at": "2023-09-02T18:53:18.075Z",
+        "updated_at": "2023-09-02T06:33:28.876Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c342be2-0dd1-4056-ae76-7be52182d63e",
+        "order_number": "PO-97531",
+        "supplier_name": "Acme Inc.",
+        "created_at": "2023-09-02T20:56:00.942Z",
+        "updated_at": "2023-09-02T14:17:56.262Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ebd24d0-b139-498d-a9e6-b8257abb83c2",
+        "order_number": "PO-12345",
+        "supplier_name": "Global Trading",
+        "created_at": "2023-09-02T06:01:23.517Z",
+        "updated_at": "2023-09-02T08:45:34.193Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "ed183618-6f8e-4dae-a2f0-b9e7ce644b96",
+        "quantity": 8248,
+        "last_updated": "2023-09-02T07:00:03.918Z",
+        "created_at": "2023-09-02T23:03:07.349Z",
+        "updated_at": "2023-09-02T11:30:42.556Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "4c9799cd-47c2-40e3-8f2b-b02a28b51c44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24724877-8a21-4173-820c-8903be4c273c",
+        "quantity": 42659,
+        "last_updated": "2023-09-02T17:22:35.707Z",
+        "created_at": "2023-09-02T18:50:35.758Z",
+        "updated_at": "2023-09-02T11:47:55.485Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "4c9799cd-47c2-40e3-8f2b-b02a28b51c44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "047953f9-8d39-4bbe-b384-b716a12c71d3",
+        "quantity": 61215,
+        "last_updated": "2023-09-02T16:50:35.369Z",
+        "created_at": "2023-09-02T15:37:47.864Z",
+        "updated_at": "2023-09-02T06:00:50.707Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "0282b9bc-550f-40a5-a00a-3341e8b57fd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "765f894b-1973-4966-9426-0e19047b265d",
+        "quantity": 54522,
+        "last_updated": "2023-09-02T13:03:35.822Z",
+        "created_at": "2023-09-02T13:08:29.864Z",
+        "updated_at": "2023-09-02T03:20:06.941Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "4c9799cd-47c2-40e3-8f2b-b02a28b51c44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b9b6cea-e380-4bbe-9d96-960a6d829de0",
+        "quantity": 49982,
+        "last_updated": "2023-09-02T20:50:13.578Z",
+        "created_at": "2023-09-02T14:07:09.106Z",
+        "updated_at": "2023-09-02T22:33:39.577Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "4c9799cd-47c2-40e3-8f2b-b02a28b51c44",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c5d62b43-34c5-4e26-ab9f-6cbb999610a7",
+        "email": "Melody_Littel39@yahoo.com",
+        "firstName": "Macy",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74562110",
+        "tenantId": null
+      },
+      {
+        "reference": "3cf9037a-4d96-4729-a510-ccf2f377d68e",
+        "email": "Ettie.Marks83@hotmail.com",
+        "firstName": "Carlie",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1020.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c006a1e9-d0a6-42ea-8b48-88d6535b3b7c",
+        "email": "Seamus_Kuvalis@yahoo.com",
+        "firstName": "Fred",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ebe9ef9-0ec7-407e-8d1a-151cede571a0",
+        "email": "Emmie.Heller@yahoo.com",
+        "firstName": "Verla",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "04a3ee97-e818-428a-96ae-fcc2d7e606d8",
+        "email": "Evalyn.Brown@gmail.com",
+        "firstName": "Stacy",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81334331",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "46481671-e444-4255-9008-f9bf842cf0a9",
+        "name": "Widget",
+        "description": "High-quality product",
+        "initial_quantity": 5321,
+        "created_at": "2023-09-02T19:08:46.632Z",
+        "updated_at": "2023-09-02T17:45:29.140Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dbb4211a-abeb-46c9-9f2a-5986a74a948e",
+        "name": "Gadget",
+        "description": "Versatile and reliable",
+        "initial_quantity": 88696,
+        "created_at": "2023-09-03T00:01:42.789Z",
+        "updated_at": "2023-09-03T01:54:47.694Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fcee9ad6-7a22-43a8-8870-acbf37a5b34b",
+        "name": "Tool",
+        "description": "Designed for efficiency",
+        "initial_quantity": 51219,
+        "created_at": "2023-09-02T13:25:40.192Z",
+        "updated_at": "2023-09-02T18:50:02.550Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "42555d3c-f8ce-4632-b8ee-93813f6faba2",
+        "name": "Accessory",
+        "description": "Enhances productivity",
+        "initial_quantity": 6127,
+        "created_at": "2023-09-02T21:39:54.634Z",
+        "updated_at": "2023-09-02T06:03:36.950Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1703086e-2330-4d45-8141-8b7838103e6b",
+        "name": "Component",
+        "description": "Durable and long-lasting",
+        "initial_quantity": 21145,
+        "created_at": "2023-09-02T12:30:17.067Z",
+        "updated_at": "2023-09-02T03:55:04.231Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "1931ae5d-c0c5-4193-b1e0-8f07587029fe",
+        "order_number": "SO-12345",
+        "customer_name": "ABC Company",
+        "created_at": "2023-09-02T03:31:59.411Z",
+        "updated_at": "2023-09-02T06:54:15.343Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb9e269e-1367-46f7-9425-7cab9459f4ef",
+        "order_number": "SO-67890",
+        "customer_name": "XYZ Corporation",
+        "created_at": "2023-09-03T00:06:03.113Z",
+        "updated_at": "2023-09-02T07:03:05.235Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb502507-cb41-465f-b14d-811dbe8be6b1",
+        "order_number": "SO-24680",
+        "customer_name": "123 Industries",
+        "created_at": "2023-09-02T05:21:27.758Z",
+        "updated_at": "2023-09-02T04:14:50.507Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dae08fbc-453d-4b83-8557-6cd10f54174c",
+        "order_number": "SO-13579",
+        "customer_name": "Best Products Inc.",
+        "created_at": "2023-09-02T09:48:05.834Z",
+        "updated_at": "2023-09-02T02:21:50.662Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca311824-4eee-4a1d-9d6b-9ca667b66b19",
+        "order_number": "SO-97531",
+        "customer_name": "Global Solutions Ltd.",
+        "created_at": "2023-09-02T10:31:35.398Z",
+        "updated_at": "2023-09-02T09:05:15.862Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "f4114247-bd78-4328-ae62-ecdd2a7f7f49",
+        "order_number": "PO-54321",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T19:39:10.995Z",
+        "updated_at": "2023-09-02T02:35:08.453Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5ef7815-d647-4be5-8ac8-2e20190e5fd7",
+        "order_number": "PO-09876",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T11:42:25.403Z",
+        "updated_at": "2023-09-02T09:01:35.121Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cdf9cea-9bc9-479d-bfa6-1ed9943fa5bd",
+        "order_number": "PO-86420",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T11:39:38.218Z",
+        "updated_at": "2023-09-02T07:32:03.367Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97b24eca-0cbf-459e-9deb-a41d59db6601",
+        "order_number": "PO-97153",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T15:47:26.743Z",
+        "updated_at": "2023-09-02T09:06:49.795Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1cb4aa3-eb86-4345-b4e7-342c615cd0d9",
+        "order_number": "PO-31975",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T21:55:40.958Z",
+        "updated_at": "2023-09-02T23:36:53.811Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "13ff333f-c9e8-45d2-8f81-8ffe01132524",
+        "quantity": 49317,
+        "last_updated": "2023-09-02T07:17:18.322Z",
+        "created_at": "2023-09-02T18:12:55.681Z",
+        "updated_at": "2023-09-02T13:22:22.392Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "fcee9ad6-7a22-43a8-8870-acbf37a5b34b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4c25f53-051f-4145-bc4f-b24359482a8c",
+        "quantity": 16167,
+        "last_updated": "2023-09-02T17:15:19.527Z",
+        "created_at": "2023-09-02T04:14:55.633Z",
+        "updated_at": "2023-09-02T19:07:37.254Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "dbb4211a-abeb-46c9-9f2a-5986a74a948e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92011efb-7455-47dd-b8ed-354e4a6063cf",
+        "quantity": 36051,
+        "last_updated": "2023-09-02T15:05:26.785Z",
+        "created_at": "2023-09-02T11:32:35.712Z",
+        "updated_at": "2023-09-02T23:55:49.191Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "42555d3c-f8ce-4632-b8ee-93813f6faba2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba5c9dfc-26b5-478f-b596-e334160cffdc",
+        "quantity": 33093,
+        "last_updated": "2023-09-02T23:55:12.888Z",
+        "created_at": "2023-09-02T19:11:15.110Z",
+        "updated_at": "2023-09-02T06:38:36.728Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "46481671-e444-4255-9008-f9bf842cf0a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1bf905e-c3fc-48e3-b8b1-74b340ac80a8",
+        "quantity": 67964,
+        "last_updated": "2023-09-02T10:00:25.126Z",
+        "created_at": "2023-09-02T21:09:11.768Z",
+        "updated_at": "2023-09-02T02:56:45.873Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "dbb4211a-abeb-46c9-9f2a-5986a74a948e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8c02dd8a-681b-4944-819d-3048d204561d",
+        "email": "Katherine20@gmail.com",
+        "firstName": "Jo",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16571861",
+        "tenantId": null
+      },
+      {
+        "reference": "7ecc4c1e-5a7e-467f-b1e1-b424f4c620df",
+        "email": "Don.Marquardt@hotmail.com",
+        "firstName": "Alvera",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49685622",
+        "tenantId": null
+      },
+      {
+        "reference": "c498dc37-7baa-4fa9-91a3-39a8d642394b",
+        "email": "Kamryn.McClure82@yahoo.com",
+        "firstName": "Princess",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0c29f344-172c-4768-8094-f47dc976f06a",
+        "email": "Dasia_Cartwright26@yahoo.com",
+        "firstName": "Marcelo",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4eeb4813-1d73-4f09-878b-d2ed7991639a",
+        "email": "Zula46@gmail.com",
+        "firstName": "Jenifer",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/529.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock_item": [
+      {
+        "id": "f707bc06-6144-467d-9a76-5700fbc501ee",
+        "name": "Smartphone",
+        "description": "High-performance smartphone with advanced features",
+        "initial_quantity": 3688,
+        "created_at": "2023-09-02T16:29:34.305Z",
+        "updated_at": "2023-09-02T13:23:30.832Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b3d26f8-73dd-47d4-ac8f-c2ac4327b744",
+        "name": "Laptop",
+        "description": "Powerful laptop for professional use",
+        "initial_quantity": 73805,
+        "created_at": "2023-09-02T23:33:52.562Z",
+        "updated_at": "2023-09-02T06:13:40.793Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5cdf431e-d007-4390-8a2a-d66ca120745f",
+        "name": "Headphones",
+        "description": "Premium quality headphones for immersive audio experience",
+        "initial_quantity": 55381,
+        "created_at": "2023-09-02T16:15:31.727Z",
+        "updated_at": "2023-09-02T13:25:55.583Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd46671d-383b-4b73-8c81-a240499f4fbf",
+        "name": "Smart Watch",
+        "description": "Sleek smart watch with fitness tracking capabilities",
+        "initial_quantity": 21231,
+        "created_at": "2023-09-02T03:10:51.022Z",
+        "updated_at": "2023-09-02T05:14:02.689Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41522044-153e-4db5-aae7-8c7cfd60a649",
+        "name": "Wireless Speaker",
+        "description": "Portable wireless speaker with exceptional sound quality",
+        "initial_quantity": 87041,
+        "created_at": "2023-09-02T22:05:30.358Z",
+        "updated_at": "2023-09-03T00:06:33.010Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "sales_order": [
+      {
+        "id": "61fd9250-227c-4845-9871-7785f3df6606",
+        "order_number": "SO-001",
+        "customer_name": "John Doe",
+        "created_at": "2023-09-03T01:50:06.019Z",
+        "updated_at": "2023-09-02T10:17:11.369Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d9b9655-69c9-4bc4-9e5f-b8d888cab646",
+        "order_number": "SO-002",
+        "customer_name": "Jane Smith",
+        "created_at": "2023-09-02T03:34:59.226Z",
+        "updated_at": "2023-09-02T14:24:50.764Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3eb767fe-5dbb-4cd0-b3f0-20943cd1e3d4",
+        "order_number": "SO-003",
+        "customer_name": "Michael Brown",
+        "created_at": "2023-09-02T18:38:30.366Z",
+        "updated_at": "2023-09-02T12:01:52.057Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9750292-bd32-4e31-b03e-8d2043578825",
+        "order_number": "SO-004",
+        "customer_name": "Sarah Jones",
+        "created_at": "2023-09-02T02:18:24.410Z",
+        "updated_at": "2023-09-02T07:47:00.388Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e715bd-b990-494e-aed0-9538126c0230",
+        "order_number": "SO-005",
+        "customer_name": "Robert Wilson",
+        "created_at": "2023-09-02T20:43:05.045Z",
+        "updated_at": "2023-09-02T02:26:17.136Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase_order": [
+      {
+        "id": "1397239e-af7d-4dc3-aee8-9f8e971044f9",
+        "order_number": "PO-001",
+        "supplier_name": "Supplier A",
+        "created_at": "2023-09-02T18:34:02.317Z",
+        "updated_at": "2023-09-02T09:26:39.826Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81aa18bc-353a-4952-b8ba-1f493b5d3cc1",
+        "order_number": "PO-002",
+        "supplier_name": "Supplier B",
+        "created_at": "2023-09-02T18:28:20.048Z",
+        "updated_at": "2023-09-02T07:02:30.303Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c9c63e9-f13a-405c-8709-ba48c1bf2196",
+        "order_number": "PO-003",
+        "supplier_name": "Supplier C",
+        "created_at": "2023-09-02T13:38:19.319Z",
+        "updated_at": "2023-09-02T15:18:22.655Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fd5e690-7fb3-4c00-9bf0-08faaab382ff",
+        "order_number": "PO-004",
+        "supplier_name": "Supplier D",
+        "created_at": "2023-09-02T13:46:25.186Z",
+        "updated_at": "2023-09-02T05:20:50.976Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "157de1e0-a326-48de-a0b2-7617c2aad064",
+        "order_number": "PO-005",
+        "supplier_name": "Supplier E",
+        "created_at": "2023-09-02T06:27:57.277Z",
+        "updated_at": "2023-09-02T06:02:24.714Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "106b1e81-7c1c-48ea-8b89-61cd0981e6f4",
+        "quantity": 34679,
+        "last_updated": "2023-09-02T22:28:31.727Z",
+        "created_at": "2023-09-02T09:51:34.112Z",
+        "updated_at": "2023-09-02T03:15:21.699Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "5cdf431e-d007-4390-8a2a-d66ca120745f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "badf8c12-c822-4257-a414-5d9b6ee05cd3",
+        "quantity": 80958,
+        "last_updated": "2023-09-02T17:22:30.679Z",
+        "created_at": "2023-09-02T17:03:17.279Z",
+        "updated_at": "2023-09-02T14:41:10.016Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "0b3d26f8-73dd-47d4-ac8f-c2ac4327b744",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1acd6c37-612a-4af0-b250-c3c5850ad04a",
+        "quantity": 18216,
+        "last_updated": "2023-09-02T03:14:05.587Z",
+        "created_at": "2023-09-03T01:48:57.996Z",
+        "updated_at": "2023-09-03T00:23:42.901Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "41522044-153e-4db5-aae7-8c7cfd60a649",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "109076ae-e7e2-4e3d-babb-cd84a66ec3e9",
+        "quantity": 20434,
+        "last_updated": "2023-09-02T20:38:50.776Z",
+        "created_at": "2023-09-02T20:46:14.433Z",
+        "updated_at": "2023-09-02T19:51:00.965Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "0b3d26f8-73dd-47d4-ac8f-c2ac4327b744",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b151163f-3a13-47fe-b589-8dbb2bdbfe88",
+        "quantity": 72647,
+        "last_updated": "2023-09-02T17:05:50.496Z",
+        "created_at": "2023-09-02T17:48:20.120Z",
+        "updated_at": "2023-09-02T15:07:02.548Z",
+        "company_id": "main_entity_pk",
+        "stock_item_id": "41522044-153e-4db5-aae7-8c7cfd60a649",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4515a89b-f52c-4662-a92e-7092ae4d8856",
+        "email": "Garret69@hotmail.com",
+        "firstName": "Leo",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fab5e2fe-ada9-4d73-9b8f-df69d1f2a820",
+        "email": "Germaine.Volkman@gmail.com",
+        "firstName": "Andres",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90421643",
+        "tenantId": null
+      },
+      {
+        "reference": "d94ef3f6-43ea-4d18-8bfd-050906a1b21d",
+        "email": "Adele55@gmail.com",
+        "firstName": "Kory",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40266937",
+        "tenantId": null
+      },
+      {
+        "reference": "f8ecf0cb-5239-4f45-891e-74e77011ce65",
+        "email": "Karley.Schaden65@hotmail.com",
+        "firstName": "Justen",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98922230",
+        "tenantId": null
+      },
+      {
+        "reference": "be449855-5011-4612-95d1-9715e90d9e83",
+        "email": "Jarrell63@yahoo.com",
+        "firstName": "Melany",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99997949",
+        "tenantId": null
+      }
+    ]
+  }
+]
